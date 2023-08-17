@@ -17,7 +17,7 @@ LIGHT='\033[0;37m'
 # ==========================================
 # Getting
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$( curl https://myridwan.github.io/izin | grep $MYIP )
+IZIN=$( curl githubusercontent.com/irawancandra6699n/sc/ipuk/izinde | grep $MYIP )
 echo "Memeriksa Hak Akses VPS..."
 if [ $MYIP = $IZIN ]; then
 clear
